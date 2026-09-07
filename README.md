@@ -14,5 +14,5 @@
 
 1. Скачайте файл FDStreak-1.0.jar из раздела [Releases](https://github.com/Kouqqu/FireStreak/releases).
 2. Поместите его в папку plugins вашего сервера.
-3. Перезагрузите сервер или загрузите плагин.
+3. Перезагрузите сервер.
 4. При необходимости настройте plugins/FireStreak/config.yml.
