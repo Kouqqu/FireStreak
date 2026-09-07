@@ -1,0 +1,5 @@
+name: FDStreak
+version: 1.1
+main: com.example.firestreak.FireStreak
+api-version: '26.1'
+authors: [Sanek_K]

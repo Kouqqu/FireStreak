@@ -1,0 +1,33 @@
+settings:
+  # Часовой пояс сервера для корректного расчета дней (например: Europe/Moscow, UTC, America/New_York)
+  timezone: "Europe/Moscow"
+  # Сколько секунд показывать Action Bar при входе
+  action-bar-duration: 5
+
+colors:
+  # HEX цвета для градиента в Action Bar
+  fire: "#FF4500"   # Цвет огонька (🔥)
+  number: "#FFA500" # Цвет цифры
+  text: "#FFD700"   # Цвет текста "дн. подряд"
+
+sounds:
+  # Звуки при ежедневном входе и недельной награде.
+  # Поддерживаются как классические имена Bukkit (ENTITY_PLAYER_LEVELUP, UI_TOAST_CHALLENGE_COMPLETE),
+  # так и современные ключи Minecraft реестра (entity.player.levelup, ui.toast.challenge_complete).
+  daily-login: "entity.player.levelup"
+  weekly-reward: "ui.toast.challenge_complete"
+
+rewards:
+  # Каждые сколько дней выдавать большую награду?
+  weekly-interval: 7
+  # Список предметов для награды. Формат: МАТЕРИАЛ:КОЛИЧЕСТВО
+  items:
+    - "DIAMOND_ORE:3"
+    - "EXPERIENCE_BOTTLE:5"
+    - "GOLDEN_APPLE:1"
+
+messages:
+  # {days} заменяется на текущее число дней стрика
+  weekly-title: "&6&l🔥 НЕДЕЛЬНЫЙ СТРИК! ({days} дн.)"
+  weekly-subtitle: "&eВы получили награду за верность серверу!"
+  error-console: "Ошибка в конфиге FireStreak! Проверьте названия звуков или предметов."
