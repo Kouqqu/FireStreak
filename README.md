@@ -1,4 +1,4 @@
-# FireStreak (FDStreak)
+# FireStreak
 
 [English](#english) | [Русский](#русский)
 
@@ -6,7 +6,7 @@
 
 ## English
 
-A lightweight Minecraft plugin for Paper / Purpur / Spigot (1.16+) that rewards players for consecutive daily logins with fire streaks.
+A lightweight Minecraft plugin for Paper / Purpur / Spigot (1.20.5+ – 26.x, Java 21+) that rewards players for consecutive daily logins with fire streaks.
 
 ### Features
 
@@ -18,7 +18,7 @@ A lightweight Minecraft plugin for Paper / Purpur / Spigot (1.16+) that rewards 
 
 ### Installation
 
-1. Download FDStreak-1.0.jar from [Releases](https://github.com/Kouqqu/FireStreak/releases).
+1. Download FireStreak-1.0.jar from [Releases](https://github.com/Kouqqu/FireStreak/releases).
 2. Place it into your server's plugins/ folder.
 3. Restart or reload your server.
 4. (Optional) Configure plugins/FireStreak/config.yml.
@@ -27,7 +27,7 @@ A lightweight Minecraft plugin for Paper / Purpur / Spigot (1.16+) that rewards 
 
 ## Русский
 
-Плагин для Minecraft-серверов (Paper / Purpur / Spigot 1.16+), добавляющий систему ежедневных стриков («огоньков») за вход на сервер.
+Плагин для Minecraft-серверов (Paper / Purpur / Spigot 1.20.5+ – 26.x, Java 21+), добавляющий систему ежедневных стриков («огоньков») за вход на сервер.
 
 ### Возможности
 
@@ -39,7 +39,7 @@ A lightweight Minecraft plugin for Paper / Purpur / Spigot (1.16+) that rewards 
 
 ### Установка
 
-1. Скачайте файл FDStreak-1.0.jar из раздела [Releases](https://github.com/Kouqqu/FireStreak/releases).
+1. Скачайте файл FireStreak-1.0.jar из раздела [Releases](https://github.com/Kouqqu/FireStreak/releases).
 2. Поместите его в папку plugins вашего сервера.
 3. Перезагрузите сервер.
 4. При необходимости настройте plugins/FireStreak/config.yml.

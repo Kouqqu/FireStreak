@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>FDStreak</artifactId>
+    <artifactId>FireStreak</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
@@ -23,11 +23,11 @@
     </repositories>
 
     <dependencies>
-        <!-- API версии 1.21.10, как ты просил -->
+        <!-- Базовая версия Paper API (1.20.6 / Java 21 baseline) для поддержки 1.20.5+ - 26.x -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21.10-R0.1-SNAPSHOT</version>
+            <version>1.20.6-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
